@@ -10,8 +10,8 @@
 # Thành viên nhóm
 | STT    | MSSV          | Họ và Tên              |Chức Vụ    | Github                                                  | Email                   |
 | ------ |:-------------:| ----------------------:|----------:|--------------------------------------------------------:|-------------------------:
-| 1      | 22520506      | Lê Minh Hùng        |Nhóm Trưởng |[LeMinhHung120204](https://github.com/LeMinhHung120204)            |22520506@gm.uit.edu.vn   |
-| 2      | 22520830      | Văn Công Gia Luật        |Thành viên |[zalaw1610](https://github.com/zalaw1610)|22520830@gm.uit.edu.vn   |
+| 1      | 22520506      | Lê Minh Hùng        |Thành viên |[LeMinhHung120204](https://github.com/LeMinhHung120204)            |22520506@gm.uit.edu.vn   |
+| 2      | 22520506      | Đoàn Đăng Quang        |Thành viên | |22520506@gm.uit.edu.vn   |
 
 # GIỚI THIỆU MÔN HỌC
 * **Tên môn học:** Thiết kế vi mạch số

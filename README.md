@@ -40,4 +40,16 @@ Cấu trúc ô nhớ gồm 4 transistor tạo thành một cặp inverter mắc 
 Để cell có thể đọc và không bị mất dữ liệu, và có thể lật giá trị trong cell trong lúc ghi thì kích thước của các transistor trong cell phải tuân theo tỉ lệ nhất định.
 
 ## Read Operation:
-![read_operation]()
+![read_operation](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/ReadOperation.png?raw=true)
+
+Trước khi đọc, hai đường bitline (BL và BLB) được sạc đầy lên mức cao (V<sub>DD</sub>).
+Giả sử bitcell đang lưu giá trị logic '0', tức điểm Q = LOW, Q̅ = HIGH. Trong trạng thái này, các transistor N4, N2, P1 và N3 đang dẫn.
+
+Khi wordline được kích hoạt, bitline BL sẽ được nối với điểm Q thông qua transistor truy cập N4.
+Do chênh lệch điện áp giữa BL (HIGH) và Q (LOW), sẽ xuất hiện một xung tăng điện áp nhỏ ∆V tại Q (tức điểm lưu logic '0').
+
+Trong khi đó, điểm Q̅ vẫn giữ nguyên mức HIGH do không có dòng chảy qua N3.
+Để đảm bảo giá trị lưu trữ không bị lật trong quá trình đọc, biên độ ∆V tại Q phải nhỏ hơn ngưỡng kích dẫn của NMOS (∆V < V<sub>tn</sub>).
+
+Dựa trên điều kiện này, phương trình mô tả dòng điện trong quá trình đọc có thể được thiết lập, từ đó suy ra tỉ lệ kích thước (sizing) phù hợp giữa transistor pull-down và truy cập (access transistor) (Eq.1):
+![Eq.1](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/Eq-1.jpeg?raw=true)

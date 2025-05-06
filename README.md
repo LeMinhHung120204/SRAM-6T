@@ -51,5 +51,8 @@ Do chênh lệch điện áp giữa BL (HIGH) và Q (LOW), sẽ xuất hiện m�
 Trong khi đó, điểm Q̅ vẫn giữ nguyên mức HIGH do không có dòng chảy qua N3.
 Để đảm bảo giá trị lưu trữ không bị lật trong quá trình đọc, biên độ ∆V tại Q phải nhỏ hơn ngưỡng kích dẫn của NMOS (∆V < V<sub>tn</sub>).
 
-Dựa trên điều kiện này, phương trình mô tả dòng điện trong quá trình đọc có thể được thiết lập, từ đó suy ra tỉ lệ kích thước (sizing) phù hợp giữa transistor pull-down và truy cập (access transistor) (Eq.1):
+Dựa trên điều kiện này, phương trình mô tả dòng điện trong quá trình đọc có thể được thiết lập, từ đó suy ra tỉ lệ kích thước (sizing) phù hợp giữa transistor pull-down và truy cập (access transistor) (Eq.1): 
+
 ![Eq.1](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/Eq-1.jpeg?raw=true)
+
+## Write Operation

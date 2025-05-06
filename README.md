@@ -56,3 +56,6 @@ Dựa trên điều kiện này, phương trình mô tả dòng điện trong qu
 ![Eq.1](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/Eq-1.jpeg?raw=true)
 
 ## Write Operation
+![write_operation](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/WriteOperation.png?raw=true)
+
+Giả sử bitcell đang lưu giá trị logic '0', tức điểm Q = LOW, Q̅ = HIGH. 

@@ -11,7 +11,7 @@
 | STT    | MSSV          | Họ và Tên              |Chức Vụ    | Github                                                  | Email                   |
 | ------ |:-------------:| ----------------------:|----------:|--------------------------------------------------------:|-------------------------:
 | 1      | 22520506      | Lê Minh Hùng        |Thành viên |[LeMinhHung120204](https://github.com/LeMinhHung120204)            |22520506@gm.uit.edu.vn   |
-| 2      | 22520506      | Đoàn Đăng Quang        |Thành viên | |22520506@gm.uit.edu.vn   |
+| 2      | 22521198      | Đoàn Đăng Quang        |Thành viên | |22521198@gm.uit.edu.vn   |
 
 # GIỚI THIỆU MÔN HỌC
 * **Tên môn học:** Thiết kế vi mạch số

@@ -51,11 +51,24 @@ Do chênh lệch điện áp giữa BL (HIGH) và Q (LOW), sẽ xuất hiện m�
 Trong khi đó, điểm Q̅ vẫn giữ nguyên mức HIGH do không có dòng chảy qua N3.
 Để đảm bảo giá trị lưu trữ không bị lật trong quá trình đọc, biên độ ∆V tại Q phải nhỏ hơn ngưỡng kích dẫn của NMOS (∆V < V<sub>tn</sub>).
 
-Dựa trên điều kiện này, phương trình mô tả dòng điện trong quá trình đọc có thể được thiết lập, từ đó suy ra tỉ lệ kích thước (sizing) phù hợp giữa transistor pull-down và truy cập (access transistor) (Eq.1): 
+Dựa trên điều kiện này, phương trình mô tả dòng điện trong quá trình đọc có thể được thiết lập, từ đó suy ra tỉ lệ kích thước (sizing) phù hợp giữa transistor pull-down và access – còn được gọi là cell ratio (Eq.1): 
 
 ![Eq.1](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/Eq-1.jpeg?raw=true)
 
 ## Write Operation
 ![write_operation](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/WriteOperation.png?raw=true)
 
-Giả sử bitcell đang lưu giá trị logic '0', tức điểm Q = LOW, Q̅ = HIGH. 
+Giả sử bitcell đang lưu giá trị logic '0', tức điểm Q = LOW, Q̅ = HIGH.
+
+Trong trạng thái này, các transistor N4, N2, P1 và N3 đang dẫn.
+
+![write_operation](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/WriteOperation2.png?raw=true)
+
+Để ghi vào giá trị logic ‘1’, các đường bitline được thiết lập: BL = HIGH, BLB = LOW.
+
+Trong quá trình này, tại điểm Q (ban đầu = LOW), xuất hiện một xung tăng điện áp nhỏ ∆V < V<sub>tn</sub>, không đủ để làm lật bitcell.
+
+Tuy nhiên, tại điểm Q̅ (ban đầu = HIGH), do được nối với BLB = LOW thông qua transistor truy cập, xuất hiện điện áp giảm ∆V₂ sao cho ∆V₂ > V<sub>tn</sub>. Điều này khiến transistor pull-down (N1) bật dẫn và kéo điểm Q̅ xuống mức LOW, dẫn đến bitcell bị lật.
+
+Dựa trên điều kiện này, phương trình mô tả dòng điện trong quá trình ghi có thể được thiết lập, từ đó suy ra tỉ lệ kích thước (sizing) phù hợp giữa transistor pull-up và access – còn gọi là pull-up ratio (xem Eq.2):
+![Eq.2](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/Eq-2.jpeg?raw=true)

@@ -33,4 +33,11 @@
 
 ---
 # Kiến trúc bit cell
-![Bit cell circuit.]()
+![Bit cell circuit.](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/Bitcell.png?raw=true)
+
+Cấu trúc ô nhớ gồm 4 transistor tạo thành một cặp inverter mắc chéo (cross-coupled inverters) nhằm duy trì trạng thái lưu trữ ổn định, và 2 transistor truyền (access transistors) được điều khiển bởi tín hiệu Word Line (WL) để kết nối cell với các đường Bit Line (BL và BLB) trong quá trình đọc và ghi dữ liệu.
+
+Để cell có thể đọc và không bị mất dữ liệu, và có thể lật giá trị trong cell trong lúc ghi thì kích thước của các transistor trong cell phải tuân theo tỉ lệ nhất định.
+
+## Read Operation:
+![read_operation]()

@@ -71,4 +71,10 @@ Trong quá trình này, tại điểm Q (ban đầu = LOW), xuất hiện một 
 Tuy nhiên, tại điểm Q̅ (ban đầu = HIGH), do được nối với BLB = LOW thông qua transistor truy cập, xuất hiện điện áp giảm ∆V₂ sao cho ∆V₂ > V<sub>tn</sub>. Điều này khiến transistor pull-down (N1) bật dẫn và kéo điểm Q̅ xuống mức LOW, dẫn đến bitcell bị lật.
 
 Dựa trên điều kiện này, phương trình mô tả dòng điện trong quá trình ghi có thể được thiết lập, từ đó suy ra tỉ lệ kích thước (sizing) phù hợp giữa transistor pull-up và access – còn gọi là pull-up ratio (xem Eq.2):
+
 ![Eq.2](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/Eq-2.jpeg?raw=true)
+
+---
+# Waveform result
+
+![waveform]()

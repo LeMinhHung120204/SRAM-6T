@@ -77,4 +77,21 @@ Dựa trên điều kiện này, phương trình mô tả dòng điện trong qu
 ---
 # Waveform result
 
-![waveform]()
+![waveform](https://github.com/LeMinhHung120204/SRAM-6T/blob/main/images/waveform.png?raw=true)
+
+SRAM hoạt động ổn định ở tần số 1.52 GHz, cho thấy thiết kế đạt được độ tin cậy cao trong điều kiện mô phỏng.
+
+---
+# Reference
+
+[1] Y. Alekhya and J. Sudhakar, “Design Analysis of SRAM Cell with Improved 
+Noise Margin based on Aspect Ratio Adjustments,” 2017, doi: 
+10.29042/2018-2645-2650.  
+
+[2] N. H. E. Weste and D. M. Harris, CMOS VLSI Design: A Circuits and Systems 
+Perspective, 4th ed., Boston, MA, USA: Addison-Wesley, 2010.   
+
+[3] D. Dutt, P. Mittal, B. Rawat, and B. Kumar, “Design and Performance Analysis of 
+High-Performance Low Power Voltage Mode Sense Amplifier for Static RAM,”.
+
+[4] GitHub repository: [6T-SRAM Cell Design by Gautam19499](https://github.com/gautam19499/6T-SRAM_cell_design.git)
